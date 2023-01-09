@@ -25,3 +25,8 @@ end)
 MainSection:NewButton("Open Nevahub", "Opens Nevahub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
 end)
+
+MainSection:NewButton("combat warriors", "combat warriors", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
+end)
+
