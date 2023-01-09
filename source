@@ -1,0 +1,23 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("zisx", "DarkTheme")
+
+--MAIN
+local MAIN = Window:NewTab("BLOX FRUIT")
+local Script = Script:NewSection("Main")
+
+
+MainSection:NewButton("Open ZENHUB", "Opens ZENHUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bloxfrui%20v0.3", true))()
+    end)
+
+MainSection:NewButton("Open HohoHub", "Opens HohoHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+MainSection:NewButton("Open universal", "Opens universal", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
+end)
+
+MainSection:NewButton("", "ButtonInfo", function()
+    print("Clicked")
+end)
