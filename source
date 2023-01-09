@@ -22,6 +22,6 @@ MainSection:NewButton("Open ThunderzHUB", "Opens ThunzderzHub", function()
     loadstring(game:HttpGet(“https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/PlaybackXHub-Remake.lua”))()
 end)
 
-MainSection:NewButton("", "", function()
-    print("Clicked")
+MainSection:NewButton("Open Nevahub", "Opens Nevahub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
 end)
