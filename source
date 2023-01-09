@@ -42,6 +42,7 @@ Section:NewButton("Infinite yeild", "Infinite yeild", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
+Section:NewButton("Bed wars", "Bed wars", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
+
