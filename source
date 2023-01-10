@@ -170,3 +170,9 @@ local OtherSection = Other:NewSection("Other")
 OtherSection:NewButton("Chat spoofer", "Lets you chat for other people", function()
     Loadstring(game:Httpget(('https//pastebin.com/raw/djBfk8Li').true))()
 end)
+
+OtherSection:NewButton("Bypassed fly", "Bird mode", function()
+    Loadstring(game:Httpget(('https//raw.githubusercontent.com/N1cuse/RobloxScript/main/BypassedFly.lua"))()
+    
+    Fly(true)
+end)
