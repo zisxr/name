@@ -144,3 +144,7 @@ end)
 MainSection:NewButton("Arsenal 2", "Arsenal 2", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
+
+--LOCAL PLAYER
+local Player = Window:NewTab("Player")
+local PlayerSection = Tab:NewSection("Player")
