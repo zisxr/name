@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("zisx", "DarkTheme")
+local Window = Library.CreateLib("zisx", "Midnight")
 
 --MAIN
 local MAIN = Window:NewTab("BLOX FRUIT")
@@ -149,6 +149,10 @@ end)
 local Player = Window:NewTab("Player")
 local PlayerSection = Tab:NewSection("Player")
 
-PlayerSection:NewSlider("Walk speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+PlayerSection:NewSlider("Walk speed", "SPEED!!", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("Jump Power", "Jump High!!", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.Jumppower = s
 end)
