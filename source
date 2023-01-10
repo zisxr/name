@@ -164,5 +164,10 @@ end)
 
 
 --other
-local Player = Window:NewTab("Player")
-local PlayerSection = Tab:NewSection("Player")
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("Other")
+
+OtherSection:NewButton("Chat spoofer", "Lets you chat for other people", function()
+    game.Players.LocalPlayer.Character.Humanoid.Jumppower = 50
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
