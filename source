@@ -113,6 +113,18 @@ MainSection:NewButton("Broken bone 5", "Bronken bone 5", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/oShyyyyy/iris-jhub/main/broknebones'))()
 end)
 
-Section:NewButton("Sonic speed sim", "Sonic speed sim", function()
+MainSection:NewButton("Sonic speed sim", "Sonic speed sim", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/blooodlines/astralhook/main/9049840490"))()
+end)
+
+MainSection:NewButton("Max speed", "Max speed", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0max2", true))()
+end)
+
+MainSection:NewButton("Doors", "Doors", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Section:NewButton("Keyboard", "Keyboard", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
