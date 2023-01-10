@@ -125,6 +125,22 @@ MainSection:NewButton("Doors", "Doors", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 end)
 
-Section:NewButton("Keyboard", "Keyboard", function()
+MainSection:NewButton("Keyboard", "Keyboard", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+MainSection:NewButton("Dunking sim", "Dunking sim", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Aidanman14/RiceHub/main/Loader'))()end)
+end)
+
+MainSection:NewButton("Combat warriors 1", "Combat warriors 1", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jkjX21VF"))()
+end)
+
+MainSection:NewButton("Arsenal 1", "Arsenal 1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
+end)
+
+MainSection:NewButton("Arsenal 2", "Arsenal 2", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
