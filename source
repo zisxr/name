@@ -3,7 +3,7 @@ local Window = Library.CreateLib("zisx", "DarkTheme")
 
 --MAIN
 local MAIN = Window:NewTab("BLOX FRUIT")
-local Script = Script:NewSection("Main")
+local Script = Scripts:NewSection("Scripts")
 
 
 MainSection:NewButton("Open ZENHUB", "Opens ZENHUB", function()
@@ -148,3 +148,7 @@ end)
 --LOCAL PLAYER
 local Player = Window:NewTab("Player")
 local PlayerSection = Tab:NewSection("Player")
+
+PlayerSection:NewSlider("Walk speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
