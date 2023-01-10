@@ -84,3 +84,15 @@ end)
 MainSection:NewButton("Legends of speed", "Legends of speed", function()
     loadstring(Game:HttpGet("https://pastebin.com/raw/0A4J7V8M"))()
 end)
+
+MainSection:NewButton("Project new world", "Project new world", function()
+    loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
+end)
+
+MainSection:NewButton("King legacy", "King legacy", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/King-Legacy/main/README.md"))()
+end)
+
+MainSection:NewButton("Demon fall", "Demon fall", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/DemonCockCandy",true))()
+end)
