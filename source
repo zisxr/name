@@ -69,14 +69,18 @@ TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
 
 end)
 
-Section:NewButton("da hood", "da hood", function()
+MainSection:NewButton("da hood", "da hood", function()
      loadstring(game:HttpGet("https://pastebin.com/raw/RuM4jA5J",true))()
 end)
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
+MainSection:NewButton("Bee swarm", "Bee swarm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/arktzyt/test/main/DarkCyber2.0"))()
 end)
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
+MainSection:NewButton("shindo life", "Life", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+MainSection:NewButton("Legends of speed", "Legends of speed", function()
+    loadstring(Game:HttpGet("https://pastebin.com/raw/0A4J7V8M"))()
 end)
