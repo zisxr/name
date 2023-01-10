@@ -156,3 +156,7 @@ end)
 Section:NewSlider("Jump Power", "Jump High!!", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.Jumppower = s
 end)
+
+MainSection:NewButton("Infinite yeild", "Infinite yeild", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
