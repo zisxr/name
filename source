@@ -31,7 +31,7 @@ MainSection:NewButton("combat warriors", "combat warriors", function()
 end)
 
 MainSection:NewButton("Psx,Arsenal,Blox fruits etc", "Psx,Arsenal,Blox fruits etc", function()
-    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FRX397/Hydrohub/main/Hydro_hub", true))()
 end)
 
 MainSection:NewButton("Bloxburg", "Bloxburg", function()
@@ -95,4 +95,24 @@ end)
 
 MainSection:NewButton("Demon fall", "Demon fall", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/DemonCockCandy",true))()
+end)
+
+MainSection:NewButton("Psx PC", "Psx PC", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Kidichi/Kidachi/main/KidachiHub/Psx', true))()
+end)
+
+MainSection:NewButton("Psx mobile", "Psx mobile", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Kidichi/Kidachi/main/KidachiHub/Psx', true))()
+end)
+
+MainSection:NewButton("Pls donate", "Pls donate", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateold'))()
+end)
+
+MainSection:NewButton("Broken bone 5", "Bronken bone 5", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/oShyyyyy/iris-jhub/main/broknebones'))()
+end)
+
+Section:NewButton("Sonic speed sim", "Sonic speed sim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/blooodlines/astralhook/main/9049840490"))()
 end)
